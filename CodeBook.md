@@ -4,7 +4,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 The features in the original data have already been normalized and bounded within [-1,1]
 
-There are two dataset created from running the "RunAnalysis.R" script on the original data The `Human_Activity_Data.txt` file was created by combining the train and test data and only taking the features that contained mean and standard deviation of the measurements. The `Human_Activity_Data_Avg.txt` takes is a step futher by taking the average of those measurement based on subject and activty type. Both datasets contain the columns below:
+There are two dataset created from running the "run_analysis.R" script on the original data The `Human_Activity_Data.txt` file was created by combining the train and test data and only taking the features that contained mean and standard deviation of the measurements. The `Human_Activity_Data_Avg.txt` takes is a step futher by taking the average of those measurement based on subject and activty type. Both datasets contain the columns below:
 
 
 "subject"                                         "activities"                                     
