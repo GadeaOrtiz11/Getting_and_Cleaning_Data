@@ -56,5 +56,5 @@ Human_Activity_Data_Avg <- Human_Activity_Data %>%
 
 
 # Save txt files of the data to local
-write.table(Human_Activity_Data,"Human_Activity_Data.txt")
-write.table(Human_Activity_Data_Avg, "Human_Activity_Data_Avg.txt")
+write.table(Human_Activity_Data,"Human_Activity_Data.txt", row.name=FALSE)
+write.table(Human_Activity_Data_Avg, "Human_Activity_Data_Avg.txt", row.name=FALSE)
