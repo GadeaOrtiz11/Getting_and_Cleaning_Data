@@ -33,7 +33,7 @@ Human_Activity_Data <- cbind(Subject, Y, X)
 
 # Extract only Mean and Standard Deviation measurement
 
-Human_Activity_Data <- Human_Activity_Data[,append(c(1,2),grep("[Mm]ean|std", names(Human_Activity_Data)))]
+Human_Activity_Data <- Human_Activity_Data[,append(c(1,2),grep("mean|std", names(Human_Activity_Data)))]
 
 # Use description of activities
 Human_Activity_Data$code <- activities[Human_Activity_Data$code, 2]
