@@ -2,7 +2,7 @@
 This repository is to complete the project for the Coursera course "Getting and Cleaning Data"
 
 ## Repository Files
-`RunAnalysis.R` has the R script that will first download and read the untidy data. It will then save two tidy data files in a txt format. Those files are also in this repo and will be described below.
+`run_analysis.R` has the R script that will first download and read the untidy data. It will then save two tidy data files in a txt format. Those files are also in this repo and will be described below.
 
 `Human_Activity_Data.txt`contains all the data for the mean and standard deviation measurement of the subjects and activities(laying, sitting, standing, walking, walking downstairs, walking upstairs) which were part of the expirement.
 
